@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    width: 100%;
+    height: 48.75rem;
+    flex-shrink: 0;
+    background: #efefef;
+  }
+  
+  .container {
+    margin: auto;
+    width: 80%;
+    padding-top: 2rem;
+  }
+  
+  .title-2 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; /* 3.48513rem */
+    margin-bottom: 8rem;
+  }
+  
+  .card-2 {
+    width: 49.4375rem;
+    height: 28.1875rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: #fff;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+  }
+  
+  .card-2-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.875rem */
+    margin-bottom: 3rem;
+  }
+  
+  .card-2-2 {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .profile {
+    width: 11.875rem;
+    height: 10.5625rem;
+    flex-shrink: 0;
+  }
+  
+  .texts-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .texts-2 div {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; /* 1.90094rem */
+  }
+  
+  .logo {
+    width: 2rem;
+    height: 1.9375rem;
+    flex-shrink: 0;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .bg {
+      width: 100vw;
+      height: 28.23438rem;
+      flex-shrink: 0;
+      background: #efefef;
+    }
+  
+    .container {
+      margin: auto;
+      width: 80%;
+      padding-top: 2rem;
+    }
+  
+    .title-2 {
+      color: #000;
+      font-family: Roboto Slab;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 101.385%; /* 2.02769rem */
+      margin-bottom: 4rem;
+    }
+  
+    .card-2 {
+      width: 28.63256rem;
+      height: 16.32525rem;
+      flex-shrink: 0;
+      border-radius: 1.08594rem;
+      background: #fff;
+      box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+      padding: 2rem;
+    }
+  
+    .card-2-1 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 1.125rem */
+      margin-bottom: 1rem;
+    }
+  
+    .card-2-2 {
+      display: flex;
+      gap: 2rem;
+    }
+  
+    .profile {
+      width: 6.87763rem;
+      height: 6.11744rem;
+      flex-shrink: 0;
+    }
+  
+    .texts-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .texts-2 div {
+      color: #000;
+      font-family: Roboto Slab;
+      font-size: 1.0625rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 101.385%; /* 1.07719rem */
+    }
+  
+    .logo {
+      width: 1.15831rem;
+      height: 1.12213rem;
+      flex-shrink: 0;
+    }
+  }
+  
+  @media screen and (max-width: 570px) {
+    .bg {
+      width: 100vw !important;
+      height: 26.4375rem;
+      background: #efefef;
+    }
+  
+    .container {
+      margin: auto;
+      width: 90%;
+      padding-top: 2rem;
+    }
+  
+    .title-2 {
+      color: #000;
+      font-family: Roboto Slab;
+      font-size: 1.625rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 101.385%; /* 1.6475rem */
+      margin-bottom: 2rem;
+    }
+  
+    .card-2 {
+      width: 16rem;
+      height: 15.5rem;
+      flex-shrink: 0;
+      border-radius: 0.87369rem;
+      background: #fff;
+      box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25);
+      padding: 1rem;
+      padding-right: 0;
+    }
+  
+    .card-2-1 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 0.625rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 0.9375rem */
+      margin-bottom: 1rem;
+    }
+  
+    .card-2-2 {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .profile {
+      width: 5.5rem;
+      height: 5rem;
+      flex-shrink: 0;
+    }
+  
+    .texts-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    .texts-2 div {
+      color: #000;
+      font-family: Roboto Slab;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 101.385%; /* 0.88713rem */
+    }
+  
+    .logo {
+      width: 1rem;
+      height: 1rem;
+      flex-shrink: 0;
+    }
+  }
+  
+  /* Sixth section */
+  
+  .course_about {
+    height: 35rem;
+    flex-shrink: 0;
+    background-color: #9dc9c8;
+    padding: 100px 0;
+  }
+  
+  .text--6 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; /* 3.48513rem */
+    margin-bottom: 6rem;
+  }
+  
+  .text--6-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 1.58413rem */
+  }
+  
+  .text--6-2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 5.06925rem */
+    margin-bottom: 10rem;
+  }
+  
+  .texts--6 {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .texts--6-1 p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 1.14056rem */
+    width: 50%;
+  }
+  
+  .texts--6-1 p:first-child {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 1.58413rem */
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .text--6 {
+      color: #000;
+      font-family: Roboto Slab;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 101.385%; /* 2.02769rem */
+      margin-bottom: 6rem;
+    }
+  
+    .text--6-1 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 101.385%; /* 0.88713rem */
+    }
+  
+    .text--6-2 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 101.385%; /* 2.91481rem */
+      margin-bottom: 10rem;
+    }
+  
+    .texts--6 {
+      display: flex;
+      gap: 4rem;
+    }
+  
+    .texts--6-1 p {
+      color: #000;
+      font-family: Roboto;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 101.385%; /* 0.63363rem */
+      width: 70%;
+    }
+  
+    .texts--6-1 p:first-child {
+      color: #000;
+      font-family: Roboto;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 101.385%; /* 0.88713rem */
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .course_about {
+      height: 25rem;
+      flex-shrink: 0;
+      padding: 50px 0;
+    }
+  
+    .text--6 {
+      color: #000;
+      font-family: Roboto Slab;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 101.385%; /* 1.6475rem */
+    }
+  
+    .text--6-1 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 101.385%; /* 0.76038rem */
+    }
+  
+    .text--6-2 {
+      color: #000;
+      font-family: Roboto;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 101.385%; /* 2.3445rem */
+      margin-bottom: 3rem;
+    }
+  
+    .texts--6 {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .texts--6-1 p {
+      color: #000;
+      font-family: Roboto;
+      font-size: 0.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 101.385%; /* 0.63363rem */
+      width: 100%;
+    }
+  
+    .texts--6-1 p:first-child {
+      color: #000;
+      font-family: Roboto;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 101.385%; /* 0.76038rem */
+      margin-bottom: 0.5rem;
+    }
+  }
